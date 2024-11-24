@@ -1,60 +1,47 @@
-# Vue 3 + Vite
-Weather App Frontend
+# Vue 3 + Vite Weather App Frontend
+
 This project is a weather application built with Vue 3. Users can search for a city to get its current weather information, including temperature and weather description, with dynamic background visuals.
 
-Features
-Search for weather information by city name.
-Display weather details:
-Temperature
-Description (e.g., "light rain")
-Dynamic background videos based on weather conditions.
-Technologies Used
-Vue 3: Modern frontend framework.
-Vuetify: UI components.
-Pinia: State management.
-Axios: HTTP client for backend communication.
-Vite: Development server and build tool.
-Vitest: Testing framework.
+---
 
-Setup Instructions
-Navigate to the project directory:
+## Features
 
-Copy code
-cd vue3-weather-project
+- **Search Weather by City Name**: Retrieve real-time weather details for any city.
+- **Weather Details**:
+  - Temperature
+  - Description (e.g., "Light Rain")
 
-Install the dependencies:
-npm install
+---
 
-Start the development server:
-npm run dev
+## Technologies Used
 
-Access the application in your browser:
-http://localhost:5173
+- **Vue 3**: Modern JavaScript framework for building user interfaces.
+- **Vuetify**: Material Design-based UI components.
+- **Pinia**: State management library for Vue.
+- **Axios**: HTTP client for API communication.
+- **Vite**: Lightning-fast development server and build tool.
+- **Vitest**: Lightweight testing framework.
 
-Project Structure
+---
 
-How to Use
-Open the application.
-Enter a city name and click the "Search" button.
-View the weather information along with a dynamic background video.
-Testing
+## Setup Instructions
 
-Run the following command to execute the test cases:
-npm run test
+1. **Navigate to the project directory**:
+   ```bash
+   cd vue3-weather-project
+2. **Install dependencies**:
+   ```bash
+   npm install
+3. **Start the development server**:
+   ```bash
+   npm run dev
+4. **Access the application: Open your browser and go to**:
+   ```bash
+   http://localhost:5173
+5. **Testing**:
+   ```bash
+   npm run test
 
-Contributing
-Fork this repository.
+## License
 
-Create a new branch:
-git checkout -b feature-branch
-
-Make your changes and commit them:
-git commit -m "Description of the new feature"
-
-Push to your branch:
-git push origin feature-branch
-
-Open a Pull Request (PR).
-
-License
-This project is licensed under the MIT License. See the LICENSE file for more details.
+This project is licensed under the **MIT License**.
